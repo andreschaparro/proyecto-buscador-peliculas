@@ -1,0 +1,66 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: lightgray;
+}
+
+h1 {
+    margin: 0 0 20px 0;
+    text-align: center;
+    background-color: seagreen;
+    color: white;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid grey;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: seagreen;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: gray;
+    color: black;
+}
+
+#results {
+    margin: 20px 0 0 0;
+    text-align: left;
+}
+
+.movie {
+    margin: 0;
+    padding: 20px;
+}
+
+.movie img {
+    width: 100px;
+    margin: 0 10px 0 0;
+    float: left;
+}
+
+.movie h2 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.movie p {
+    margin: 10px 0;
+    text-align: justify;
+}
